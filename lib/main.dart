@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'package:camera/camera.dart';
-import 'package:detecteur_texte_flutter/result_screen.dart';
+import 'result_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_mlkit_text_recognition/google_mlkit_text_recognition.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Transcripteur De texte',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -118,7 +119,7 @@ class _MainScreenState extends State<MainScreen> with WidgetsBindingObserver {
                       child: Container(
                         padding: EdgeInsets.only(left: 24.0, right: 24.0),
                         child: Text(
-                          'Camera permission denied',
+                          'Accès Refuser',
                           textAlign: TextAlign.center,
                         ),
                       ),

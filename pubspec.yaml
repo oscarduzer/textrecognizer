@@ -1,4 +1,4 @@
-name: detecteur_texte_flutter
+name: textrecognizer
 description: "A new Flutter project."
 
 publish_to: 'none' 
@@ -30,7 +30,7 @@ dev_dependencies:
 flutter_native_splash:
   #color: "#42a5f5"
   background_image: "assets/image.jfif"
-  #image: "assets/camera-icon.png"
+  image: "assets/camera-icon.png"
   #flutter_lints: ^2.0.0
 
 flutter:
