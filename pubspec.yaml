@@ -25,14 +25,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_native_splash: ^1.2.3
-
-flutter_native_splash:
-  #color: "#42a5f5"
-  background_image: "assets/image.jfif"
-  image: "assets/camera-icon.png"
-  #flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
-  
+
+  assets:
+    - assets/image.jfif
