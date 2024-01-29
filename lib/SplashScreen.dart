@@ -24,7 +24,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return new Scaffold(
       body: new Center(
         child: Container(
-          child: Image(image: AssetImage("mage.jfif"),
+          child: Image(image: AssetImage("image.jfif"),
           repeat: ImageRepeat.noRepeat,),
         ),
       ),
